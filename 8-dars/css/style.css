@@ -1,0 +1,409 @@
+/* GENERAL CSS */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1244px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+ol {
+  list-style: none;
+}
+
+/* HEADER STYLING START */
+.header {
+  margin-top: 56px;
+  margin-bottom: 80px;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  margin-left: auto;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  margin-right: 40px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+/* HEADER STYLING END */
+
+/* MAIN STYLING START */
+/* ************************************************** */
+
+/* HERO STYLING START */
+.hero {
+  margin-bottom: 190px;
+}
+.hero-inner {
+  display: flex;
+  align-items: center;
+}
+
+.hero-heading {
+  font-size: 48px;
+  margin-bottom: 25px;
+}
+
+.hero-desc {
+  width: 445px;
+  margin-bottom: 45px;
+  font-size: 24px;
+  color: dimgray;
+}
+
+.hero-right {
+  margin-left: auto;
+}
+
+.hero-btn {
+  background-color: #458ff6;
+  color: white;
+  border: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+  border-radius: 35px;
+  font-size: 20px;
+}
+/* HERO STYLING END */
+
+/* ************************************************** */
+
+/* SERVICES STYLING START */
+.services-top {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.services-heading {
+  font-size: 36px;
+  margin-bottom: 26px;
+}
+
+.services-line {
+  width: 56px;
+  height: 2px;
+  background-color: black;
+  margin: 0 auto;
+  margin-bottom: 33px;
+}
+
+.services-description {
+  width: 952px;
+  color: dimgray;
+  font-size: 18px;
+  margin: 0 auto;
+}
+
+.services-middle {
+  margin-bottom: 70px;
+}
+
+.services-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.services-item {
+  width: 30%;
+  background-color: rgb(191, 187, 187);
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  padding-left: 20px;
+}
+
+.services-img {
+  margin-bottom: 22px;
+}
+.services-heading {
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.services-desc {
+  font-size: 18px;
+  color: dimgray;
+}
+
+.services-link {
+  width: 200px;
+  text-decoration: none;
+  color: blue;
+  border: 1px solid blue;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  padding: 10px 0px;
+  border-radius: 20px;
+  margin-bottom: 220px;
+}
+
+.services-link{
+  margin-left: 500px;
+  }
+
+  .leading-left{
+    margin-left: 100px;
+    width: 650px;
+    height: 477px;
+  
+  }
+
+  .leading-right{
+    width: 486px;
+    height: 388px;
+    margin-left: 137px;
+    margin-top: 100px;
+  }
+
+  .leading{
+    display: flex;
+    align-items:center;
+    margin-bottom: 100px;
+  }
+  .leading-right h3{
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  .leading-right p{
+    font-size: 18px;
+    color:#7D7987;
+    width: 400px;
+    margin-top: 31px;
+    margin-bottom: 37px;
+  }
+  .leading-btn{
+    width: 200px;
+    height: 60px;
+    border-radius: 55px;
+    border-color:blue;
+    background-color: white;
+    color:#458ff6;
+    font-size: 15px;
+
+
+  }
+
+  .download{
+    margin-left: 280px;
+    display: flex;
+    align-items:center;
+    margin-bottom: 250px;
+  }
+
+  .download-left{
+    width: 254px;
+    height: 96px;
+    margin-right: 75px;
+  }
+  .download-left p{
+    margin-top: 31px;
+    width: 300px;
+    height: 120px;
+    color:#7D7987;
+    font-size: 18px;
+    margin-bottom: 40px;
+    
+  }
+  .download-right img{
+    width: 665px;
+    height: 434px;
+    margin-top:100px;
+  }
+  .download-left h3{
+    font-size: 36px;
+  }
+
+  .download-left button{
+    width: 200px;
+    height: 56px;
+    border-radius:56px;
+    font-size: 15px;
+    background-color:white;
+    color:#458ff6;
+  }
+
+  .customer{
+    width: 1219px;
+    height: 400px;
+    background-color:#67C3F3;
+    margin: 0 auto;
+    border-radius:24px;
+    margin-bottom: 216px ;
+  }
+
+  .customer-top{
+    text-align: center;
+    padding-top: 60px;
+    color:white;
+    font-size: 36px;
+  }
+
+  .cus{
+    display: flex;
+    align-items:center;
+    
+
+
+  }
+
+  .customer-right{
+    width: 420px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: 118px;
+    color: white;
+    font-size: 19px;
+  }
+
+  .customer-left{
+    display: flex;
+    align-items:center;
+    margin-left: 50px;
+  }
+
+  .cus-r{
+    color:white;
+    margin-left: 25px;
+  }
+
+  .check-top{
+    text-align: center;
+    font-size: 36px;
+  }
+  .check{
+    margin-bottom: 50px;
+  }
+
+  .check-out ol{
+    width: 1300px;
+    display: flex;
+    align-items:center;
+    margin-left: 230px;
+    height: 512px;
+  }
+  .check-out ol li figure{
+    width: 350px;
+    height: 512px;
+  }
+
+  .check-out ol li{
+    margin-right: 20px;
+  }
+
+  .check button{
+     width: 200px;
+    height: 60px;
+    margin-left: 600px;
+    border-radius:55px
+    
+  }
+
+  footer{
+    width: 100%;
+    height: 350px;
+    background-color:#67C3F3;
+    border-radius: 15px 15px 0 0;
+}
+
+.foot-left{
+    width: 40%;
+    height: 201px;
+    padding: 70px 0 0 120px;
+    float: left;
+}
+
+.foot-left blockquote{
+    color:#ffffffd3;
+    font-size: 18px;
+    width: 391px;
+}
+
+.foot-right {
+   float: right;
+   height: 214px;
+   
+   width: 50%;
+}
+
+ul{
+    list-style: none;
+}
+
+.foot-right ul{
+    width: 700px;
+    height: 200px;
+    /* align-items: center; */
+    padding: 50px 0 0 30px;
+    display: flex;
+    
+    
+}
+
+.foot-right h3{
+   /*  text-align: center; */
+    color:white;
+    font-size: 20px;
+}
+
+
+.foot-right ul li{
+    color:#ffffffd3;
+    font-size: 18px;
+   padding-right:  80px;
+   align-items: center;
+}
+
+.foot-right ul li p{
+    padding-top: 0;
+}
+  
+
+
+  
+  
+
+  
+
+/* SERVICES STYLING END */
+
+
+
+/* MAIN STYLING END */
+
+
+
+ 
+
+
+
+
+
+  
+
+
+  
+
+
+
